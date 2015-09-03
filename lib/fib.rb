@@ -1,7 +1,7 @@
 def fibonacci(n)
-  if n < 0
-    fail(ArgumentError, "number can't be negative")
-  elsif n == 0
+  n = n.floor
+  fail(ArgumentError, "number can't be negative") if n < 0
+  if n == 0
     return 0
   elsif n == 1
     return 1
