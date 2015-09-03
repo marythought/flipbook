@@ -7,6 +7,9 @@
 
 `rake test` to run tests
 
+import `fib.rb`
+fibonacci(n) => returns a fibonacci number n levels deep
+
 ## Authors
 
 * Mary Dickson (https://github.com/marythought)
