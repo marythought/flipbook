@@ -13,17 +13,20 @@ def fibonacci(n)
 end
 
 def fib_for_10_seconds
-  100.times do | i |
+  1000.times do | i |
     puts "fibonacci number #{i}:"
     puts fibonacci(i)
   end
 end
 
 @running = true
+
+while @running
   begin
     Timeout::timeout(10) { fib_for_10_seconds }
   rescue Timeout::Error
-    stop
+    @running = false
   end
+end
 
 
