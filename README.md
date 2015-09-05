@@ -10,6 +10,8 @@
 import `fib.rb`
 fibonacci(n) => returns a fibonacci number n levels deep
 
+OR, clone the repo, switch into "lib" directory, `ruby fib.rb` to execute the sequence for 10 seconds.
+
 ## Authors
 
 * Mary Dickson (https://github.com/marythought)
