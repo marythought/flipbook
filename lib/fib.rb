@@ -14,7 +14,7 @@ end
 
 def fib_for_10_seconds
   100.times do | i |
-  puts fibonacci(i)
+    puts fibonacci(i)
   end
 end
 
