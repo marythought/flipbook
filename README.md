@@ -1,21 +1,33 @@
-# Fibanocci Sequence
+# Flipbook
 
 ## Description
-**Deck of Cards** Exploring the Fibanocci sequence with BDD and Ruby.
+**Flipbook** A ruby program to reverse the words in a sentence without using the "split" method.
 
-## Usage
+## Installation / Usage
 
-`rake test` to run tests
+* rake test to run specs
 
-import `fib.rb`
-fibonacci(n) => returns a fibonacci number n levels deep
+* import lib/flipbook.rb
 
-OR, clone the repo, switch into "lib" directory, `ruby fib.rb` to execute the sequence for 10 seconds.
+* book = Flipbook.new("here. sentence Your")
+** book.flip => "Your sentence here."
+** book.flip_no_split => "Your sentence here."
 
 ## Authors
 
 * Mary Dickson (https://github.com/marythought)
-* Ronald Kinch
 
 ## Attribution
-* This is a Code Fellows Ruby DA project with programing input from the instructor, TA, and classmates.
+
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## License
+
+MIT/X11
