@@ -1,7 +1,7 @@
 # Flipbook
 
 ## Description
-**Flipbook** A ruby program to reverse the words in a sentence without using the "split" method.
+**Flipbook** A ruby program to reverse the words in a sentence without using the "split" method, demonstrates BDD.
 
 ## Installation / Usage
 
@@ -10,15 +10,12 @@
 * import lib/flipbook.rb
 
 * book = Flipbook.new("here. sentence Your")
-** book.flip => "Your sentence here."
-** book.flip_no_split => "Your sentence here."
+* book.flip => "Your sentence here."
+* book.flip_no_split => "Your sentence here."
 
 ## Authors
 
 * Mary Dickson (https://github.com/marythought)
-
-## Attribution
-
 
 ## Contributing
 
