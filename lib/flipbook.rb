@@ -3,6 +3,7 @@ class Flipbook
     @sentence = sentence
   end
 
+  # control method to ensure the no-split method returns same result
   def flip
     sentence_array = @sentence.split
     length = sentence_array.count
